@@ -698,6 +698,13 @@ function createNewTask() {
       })
       //$("#content_submit_text").attr('disabled','disabled');
       var taskTitle = $('#taskTitle').val()
+      if (taskTitle === '') {
+        $.message({
+          message: '任务标题 必填'
+        })
+        return
+      }
+
       var taskTime = $('#taskTime').val()
       let content = $("textarea[name=text]").val()
       content = content.replace("\n", '<br/>')
