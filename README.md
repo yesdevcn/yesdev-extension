@@ -10,7 +10,7 @@ YesDev任务助手，可安装在本地Chrome谷歌浏览器，绑定你的YesDe
 下载与安装：
 
  + **Chrome 谷歌浏览器**
- 	+ 插件下载地址：[https://www.yesdev.cn/download/yesdev-extension-chrom-v2025.03.13.zip](https://www.yesdev.cn/download/yesdev-extension-chrom-v2025.03.13.zip)  
+ 	+ 插件下载地址：[https://www.yesdev.cn/download/yesdev-extension-chrome-v2025.03.13.zip](https://www.yesdev.cn/download/yesdev-extension-chrom-v2025.03.13.zip)  
  	+ 安装方式：解压插件压缩包后，在谷歌浏览器进入 [【扩展程序】chrome://extensions/](chrome://extensions/)，开启右上角 开发者模式，然后点击 加载已解压的扩展程序，完成安装。  
  	![](/img/chrome-install-yesdev.png)  
 
