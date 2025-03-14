@@ -61,6 +61,8 @@ Firefox 火狐，
  + Github项目地址：https://github.com/yesdevcn/yesdev-extension  
  + 码云项目地址：https://gitee.com/dogstar/yesdev-extension   
 
+> 温馨提示：Firefox火狐在 ```firefox```开发分支，主要是```manifest.json```配置文件的差异。  
+
 本扩展使用到的YesDev项目管理 WebAPI接口有：  
 
  + [添加新任务接口](https://www.yesdev.cn/docs.php?service=Platform.Tasks.CreateNewTask&detail=1&type=expand) 
