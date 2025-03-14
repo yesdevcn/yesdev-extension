@@ -1,4 +1,4 @@
-## YesDev任务助手 - 浏览器插件
+## YesDev任务助手 - 谷歌、火狐浏览器插件
 
 YesDev任务助手，可安装在本地Chrome谷歌浏览器，绑定你的YesDev账号后，可以快速登记任务工时、分配任务给团队和提交Bug修复任务。安装简单、配置简单、使用更简单，可极大提升你的工作效率，不需要登录YesDev系统也能快速填报任务工时。  
 
@@ -10,12 +10,13 @@ YesDev任务助手，可安装在本地Chrome谷歌浏览器，绑定你的YesDe
 下载与安装：
 
  + **Chrome 谷歌浏览器**
- 	+ 插件下载地址：xxxxx  
+ 	+ 插件下载地址：[https://www.yesdev.cn/download/yesdev-extension-chrom-v2025.03.13.zip](https://www.yesdev.cn/download/yesdev-extension-chrom-v2025.03.13.zip)  
  	+ 安装方式：解压插件压缩包后，在谷歌浏览器进入 [【扩展程序】chrome://extensions/](chrome://extensions/)，开启右上角 开发者模式，然后点击 加载已解压的扩展程序，完成安装。  
  	![](/img/chrome-install-yesdev.png)  
 
  + **Firefox 火狐浏览器**
  	+ 扩展下载地址：待补充
+ 	+ 安装方式：待补充
 
 配置：
 
@@ -50,8 +51,8 @@ YesDev任务助手，可安装在本地Chrome谷歌浏览器，绑定你的YesDe
 
 如果你是开发者，可以获取此插件的源代码，进行二次开发，根据自己和团队的需求，进行个性化的定制。  
 
- + Github项目地址：  
- + 码云项目地址：  
+ + Github项目地址：https://github.com/yesdevcn/yesdev-extension  
+ + 码云项目地址：https://gitee.com/dogstar/yesdev-extension   
 
 本扩展使用到的YesDev项目管理 WebAPI接口有：  
 
@@ -62,6 +63,9 @@ YesDev任务助手，可安装在本地Chrome谷歌浏览器，绑定你的YesDe
  + [添加任务附件接口](https://www.yesdev.cn/docs.php?service=Platform.Projects.AddProjectFile&detail=1&type=expand)
  + [获取我的资料接口](https://www.yesdev.cn/docs.php?service=Platform.User.Profile&detail=1&type=expand)
 
+## 说明 
+
+本插件源代码开源，基于 [memos-bber](https://github.com/lmm214/memos-bber) 修改，原作者为 lmm214。
 
 ## 更新日志
 
