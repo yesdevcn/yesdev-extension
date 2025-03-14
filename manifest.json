@@ -15,9 +15,6 @@
       "16": "assets/logo.png",
       "48": "assets/logo.png"
    },
-   "background": {
-      "service_worker": "js/background.js"
-    },
    "permissions": [
       "tabs",
       "storage",
@@ -30,8 +27,14 @@
         "description": "YesDev任务助手",
         "suggested_key": {
             "default": "Ctrl+Shift+T",
-            "mac": "MacCtrl+Shift+T"
+            "mac": "Command+Shift+T"
         }
       }
-    }
+   },
+   "browser_specific_settings": {
+      "gecko": {
+         "id": "your-addon-id@example.com",
+         "strict_min_version": "109.0"
+      }
+   }
 }
