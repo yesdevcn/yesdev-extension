@@ -70,6 +70,9 @@ get_info(function (info) {
     relistNow = []
   }
 
+  // 日期列表
+  showTaskDateList()
+
   // 项目列表
   showProjectList(info)
 
@@ -208,6 +211,17 @@ function showStaffList(info) {
       $('#staff_name').html(selectHtml)
     }
   });
+}
+
+// 日期列表
+function showTaskDateList() {
+  var searchHtml = ''
+  // 循环获取未来30天的日期
+  for (let i = 0; i <= 31; i++) {
+    var day = dayjs().add(i, 'day').format('YYYY-MM-DD');
+    searchHtml += `<option value="${day}">${day}</option>`
+  }
+  $('#task_finish_time').html(searchHtml)
 }
 
 function initDrag() {
@@ -699,17 +713,21 @@ function createNewTask() {
       var projectId = $('#project_name').val() // 关联项目
       var taskType = $('#task_type').val() // 任务类型
 
+      // 获取今天的日期
+      const today = dayjs().format('YYYY-MM-DD')
+      var taskDate = $('#task_finish_time').val() || today
+
       // 任务数据
       var taskData = {
         task_title: taskTitle,
         task_time: taskTime,
         real_task_time: taskTime,
-        task_finish_time: dayjs().format('YYYY-MM-DD'),
+        task_finish_time: taskDate,
         staff_id: staffId,
         task_status: taskStatus,
         task_desc: `<p>${content}</p>` + (listHtml ? `<br/><p><ul>${listHtml}</ul></p>` : ''),
         from_channel: 'chrome',
-        plan_start_date: dayjs().format('YYYY-MM-DD'),
+        plan_start_date: taskDate,
         project_id: projectId,
         task_type: taskType,
         access_token: info.apiTokens,
