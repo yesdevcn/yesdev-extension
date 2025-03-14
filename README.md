@@ -2,21 +2,28 @@
 
 YesDev任务助手，可安装在本地Chrome谷歌浏览器，绑定你的YesDev账号后，可以快速登记任务工时、分配任务给团队和提交Bug修复任务。安装简单、配置简单、使用更简单，可极大提升你的工作效率，不需要登录YesDev系统也能快速填报任务工时。  
 
-插件截图，成功提交任务后，将会同步到YesDev项目管理平台。
+插件截图，成功提交任务后，将会同步到YesDev项目管理平台。  
+
+Chrome 谷歌，  
 ![](/img/yesdev-extension-snapshot.png)  
+
+Firefox 火狐，  
+![](/img/yesdev-extension-snapshot-firefox.png)  
+
 
 ## 插件安装与配置
 
 下载与安装：
 
  + **Chrome 谷歌浏览器**
- 	+ 插件下载地址：[https://www.yesdev.cn/download/yesdev-extension-chrome-v2025.03.13.zip](https://www.yesdev.cn/download/yesdev-extension-chrom-v2025.03.13.zip)  
+ 	+ 插件下载地址：https://www.yesdev.cn/download/yesdev-extension-chrome-v2025.03.13.zip
  	+ 安装方式：解压插件压缩包后，在谷歌浏览器进入 [【扩展程序】chrome://extensions/](chrome://extensions/)，开启右上角 开发者模式，然后点击 加载已解压的扩展程序，完成安装。  
  	![](/img/chrome-install-yesdev.png)  
 
  + **Firefox 火狐浏览器**
- 	+ 扩展下载地址：待补充
- 	+ 安装方式：待补充
+ 	+ 扩展下载地址：https://www.yesdev.cn/download/yesdev-extension-firefox-v2025.03.13.zip
+ 	+ 安装方式：下载插件安装包，在火狐浏览器进入[【扩展】about:addons](about:addons) ，点击 设置图标，然后 从文件安装附加组件… 完成安装。 
+ 	![](/img/firefox-install-yesdev.png)  
 
 配置：
 
@@ -53,6 +60,8 @@ YesDev任务助手，可安装在本地Chrome谷歌浏览器，绑定你的YesDe
 
  + Github项目地址：https://github.com/yesdevcn/yesdev-extension  
  + 码云项目地址：https://gitee.com/dogstar/yesdev-extension   
+
+> 温馨提示：Firefox火狐在 ```firefox```开发分支，主要是```manifest.json```配置文件的差异。  
 
 本扩展使用到的YesDev项目管理 WebAPI接口有：  
 
